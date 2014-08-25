@@ -1,0 +1,13 @@
+{
+    "name": "Buonzz System",
+    "homepage": "http://packages.buonzz.com",
+    "repositories": [
+        { "type": "vcs", "url": "https://github.com/buonzz-systems/laravel-twitter-bootstrap.git" },
+        { "type": "vcs", "url": "https://github.com/buonzz-systems/laravel-jquery.git" },
+        { "type": "vcs", "url": "https://github.com/buonzz/laravel-4-freegeoip.git" },
+	{ "type": "vcs", "url": "https://github.com/buonzz/youthere.git"},
+	{ "type": "vcs", "url": "https://github.com/buonzz/l4-newrelic-insight.git"}
+    ],
+    "require-all": true,
+    "archive": { "directory": "dist" }
+}
