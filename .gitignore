@@ -5,12 +5,9 @@
 /vendor
 /phpunit.xml
 composer.phar
-/web/dist
+/web
 /dist
 composer.lock
 deploy.ini
-web/include/
-web/index.html
-web/packages.json
 
 
