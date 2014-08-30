@@ -20,5 +20,6 @@
         { "type": "vcs", "url": "https://github.com/illuminate/database.git"}                                                          
     ],
     "require-all": true,
-    "archive": { "directory": "dist" }
+    "archive": { "directory": "dist" },
+    "require-dependencies": true
 }
