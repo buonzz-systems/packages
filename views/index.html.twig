@@ -2,11 +2,27 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta name="robots" content="noindex,nofollow" />
+    <meta name="description" content="Free Mirror Composer Repository" />
+    <meta name="keywords" content="laravel, open source, content management systems, web development, darwin, biler" />
+    <meta property="og:title" content="Buonzz Mirror Composer Repository" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://packages.buonzz.com" />
+    <meta property="og:image" content="http://www.buonzz.com/images/logo.png" />    
     <title>{{ name }} Composer Repository</title>
     <style type="text/css">
     {% include 'styles.css' %}
     </style>
+    <link rel="icon" type="image/png"  href="http://www.buonzz.com/images/favicon.png">
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-23398079-7', 'auto');
+      ga('send', 'pageview');
+
+    </script>
 </head>
 <body>
 
@@ -113,7 +129,7 @@
             </div>
         </div>
         <div id="ft">
-            <p><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> {{ constant('Composer\\Satis\\Satis::VERSION') }} - Last updated:  {{ "now"|date(constant('\DateTime::ISO8601')) }}</small></p>
+            <p>Mirror maintained and curated by <a href="http://www.darwinbiler.com">Darwin Biler</a><small>This Composer Repository is proudly powered by <a href="https://github.com/composer/satis">Satis</a> {{ constant('Composer\\Satis\\Satis::VERSION') }} - Last updated:  {{ "now"|date(constant('\DateTime::ISO8601')) }}</small></p>
         </div>
     </div>
 
