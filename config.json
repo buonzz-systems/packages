@@ -9,7 +9,15 @@
 	    { "type": "vcs", "url": "https://github.com/buonzz/l4-newrelic-insight.git"},
         { "type": "vcs", "url": "https://github.com/laravel/laravel.git"},
         { "type": "vcs", "url": "https://github.com/laravel/framework.git"},
-        { "type": "vcs", "url": "https://github.com/sebastianbergmann/phpunit.git"}                                   
+        { "type": "vcs", "url": "https://github.com/sebastianbergmann/phpunit.git"},
+        { "type": "vcs", "url": "https://github.com/pda/pheanstalk.git"},
+        { "type": "vcs", "url": "https://github.com/padraic/mockery.git"},
+        { "type": "vcs", "url": "https://github.com/symfony/HttpFoundation.git"},
+        { "type": "vcs", "url": "https://github.com/symfony/BrowserKit.git"},
+        { "type": "vcs", "url": "https://github.com/symfony/Console.git"},
+        { "type": "vcs", "url": "https://github.com/phpDocumentor/phpDocumentor2.git"},
+        { "type": "vcs", "url": "https://github.com/illuminate/support.git"},
+        { "type": "vcs", "url": "https://github.com/illuminate/database.git"}                                                          
     ],
     "require-all": true,
     "archive": { "directory": "dist" }
